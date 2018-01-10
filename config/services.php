@@ -36,9 +36,14 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => '316604845510973',
-        'client_secret' => '57727908955a9c433e07c75ec774c7c1',
-        'redirect' => 'http://localhost:8000/auth/facebook/callback'
-    ]
+        'client_id' => env('FACEBOOK_ID'),
+        'client_secret' => env('FACEBOOK_SECRET'),
+        'redirect' => 'https://neublog.herokuapp.com/auth/facebook/callback'
+    ],
+    'twitter' => [
+      'client_id' => env('TWITTER_ID'),
+      'client_secret' => env('TWITTER_SECRET'),
+      'redirect' => 'https://neublog.herokuapp.com/auth/twitter/callback',
+    ],
 
 ];
