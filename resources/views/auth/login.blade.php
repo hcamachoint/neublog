@@ -59,10 +59,10 @@
                                     Forgot Your Password?
                                 </a>
                                   <a class="btn btn-primary" href="{{ route('social.auth', 'facebook') }}">
-                                    Login with Facebook
+                                    Facebook
                                   </a>
-                                  <a href="{{url('/redirect')}}" class="btn btn-primary">
-                                    Login with Twitter
+                                  <a class="btn btn-primary" href="{{ route('social.auth', 'twitter')}}">
+                                    Twitter
                                   </a>
                             </div>
                         </div>
