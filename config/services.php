@@ -40,6 +40,7 @@ return [
         'client_secret' => env('FACEBOOK_SECRET'),
         'redirect' => 'https://neublog.herokuapp.com/auth/facebook/callback'
     ],
+    
     'twitter' => [
       'client_id' => env('TWITTER_ID'),
       'client_secret' => env('TWITTER_SECRET'),
