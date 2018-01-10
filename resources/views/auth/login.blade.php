@@ -57,7 +57,7 @@
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
-                                </a>
+                                </a><br><br>
                                   <a class="btn btn-primary" href="{{ route('social.auth', 'facebook') }}">
                                     Facebook
                                   </a>
